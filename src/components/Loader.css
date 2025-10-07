@@ -1,0 +1,33 @@
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 40px;
+}
+
+.loader {
+  text-align: center;
+}
+
+.spinner {
+  font-size: 48px;
+  color: var(--accent-blue);
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+.loader-message {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-top: 12px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

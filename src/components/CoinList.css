@@ -1,0 +1,148 @@
+.coin-list-container {
+  margin-top: 32px;
+}
+
+.coin-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.coin-list-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--bg-card);
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.filter-icon {
+  font-size: 16px;
+  color: var(--text-muted);
+}
+
+.sort-select {
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.sort-select:hover {
+  background-color: var(--bg-hover);
+}
+
+.sort-select:focus {
+  outline: none;
+  background-color: var(--bg-hover);
+}
+
+.sort-order-button {
+  background-color: var(--bg-hover);
+  border: none;
+  color: var(--text-primary);
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sort-order-button:hover {
+  background-color: var(--accent-blue);
+  color: white;
+  transform: scale(1.05);
+}
+
+.coin-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  animation: fadeIn 0.5s ease;
+}
+
+.coin-list-loading,
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 16px;
+}
+
+.coin-list-loading p,
+.no-results p {
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .coin-list-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .coin-list-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .coin-list-header h2 {
+    font-size: 20px;
+  }
+
+  .sort-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .coin-list-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coin-list-header h2 {
+    font-size: 18px;
+  }
+
+  .sort-select {
+    font-size: 13px;
+  }
+}
