@@ -216,6 +216,7 @@ crypto-tracker/
 - Top 100 cryptocurrency listesi
 - Gerçek zamanlı fiyatlar ve değişimler
 - Arama ve sıralama
+<img width="1860" height="921" alt="image" src="https://github.com/user-attachments/assets/0eeb9238-1946-4fd6-b213-5ed07a911e59" />
 
 ### Coin Detail
 - Detaylı coin bilgileri
