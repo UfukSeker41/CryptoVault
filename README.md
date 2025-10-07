@@ -216,22 +216,26 @@ crypto-tracker/
 - Top 100 cryptocurrency listesi
 - Gerçek zamanlı fiyatlar ve değişimler
 - Arama ve sıralama
-<img width="1860" height="921" alt="image" src="https://github.com/user-attachments/assets/0eeb9238-1946-4fd6-b213-5ed07a911e59" />
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/0eeb9238-1946-4fd6-b213-5ed07a911e59" />
 
 ### Coin Detail
 - Detaylı coin bilgileri
 - İnteraktif fiyat grafikleri
 - ATH/ATL istatistikleri
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/b952db18-b889-40b2-b090-06b54d142bf9" />
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/3c9c0bfb-068a-43aa-a140-ebf9d78a28ec" />
 
 ### Portfolio
 - Yatırım takibi
 - Kar/zarar hesaplaması
 - Dağılım grafiği
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/1cb217e8-e2b5-4d2c-af00-bd06ed98ebd5" />
 
 ### Favorites
 - Hızlı erişim
 - Mini grafikler
 - İstatistikler
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/b4b50ec9-d59b-4b7b-af13-c9aeab2f4b84" />
 
 ## 🐛 Bilinen Sorunlar ve Çözümler
 
