@@ -62,7 +62,7 @@ Modern, gerçek zamanlı kripto para takip uygulaması. React 18 ile geliştiril
 
 1. **Projeyi klonlayın**
 ```bash
-git clone <https://github.com/UfukSeker41/CryptoVault>
+git clone https://github.com/UfukSeker41/CryptoVault.git
 cd crypto-tracker
 ```
 
